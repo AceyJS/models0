@@ -1,5 +1,5 @@
 {
-  "name": "@acey/loading-manager",
+  "name": "acey-loading-manager",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
