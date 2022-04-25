@@ -1,0 +1,21 @@
+{
+  "name": "@acey/loading-manager",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "cleanf": "yarn clean && rm -rf node_modules"
+  },
+  "dependencies": {
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "acey": "^1.5.4"
+  }
+}
